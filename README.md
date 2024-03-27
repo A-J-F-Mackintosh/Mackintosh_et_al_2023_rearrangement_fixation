@@ -6,3 +6,5 @@ The notebook brenthis_sweeps_chromosome_scan.nb was used for fitting sweep model
 
 ## Python scripts
 The python script get_3D_SFS.py was used to generate an unfolded 3D-SFS from a vcf (without missingness) and tsv containing which population a RG belongs to. The script six_lineage_bSFS.py was used to generate a folded bSFS. This requires a vcf and also a bed file of callable sites. The raw bSFS was formatted with format_blocks.py. Coalescent simulations were performed with anc_sweep_simulator.py. The script six_lineage_bSFS_from_sims.py was used to generate a bSFS from simulated data.
+
+All python scripts require `docopt` and anc_sweep_simulator.py requires `msprime`. Both can be installed via conda.
